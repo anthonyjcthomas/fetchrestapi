@@ -1,0 +1,30 @@
+1. Why I Chose Python and Flask
+I used Python and Flask because they're tools I know well. Flask makes creating a web API super easy, and 
+Python has great libraries that help me work with dates and data quickly. This meant I could build the project faster and with fewer headaches.
+2. Pros and Cons of My Solution
+Advantages:
+
+- The code is straightforward and easy to read
+- Storing data in the computer's memory makes the app run quickly
+- Simple to understand how the points system works
+
+Disadvantages:
+
+- All the data gets erased if the server restarts
+- If there were millions of transactions, the app might slow down or use too much computer memory
+- The error checking could be improved to make the app more reliable in a real-world situation
+
+3. My Favorite Project: Saveory App
+One of the coolest projects I've worked on is the Saveory app. While building the app was exciting, the biggest challenge was creating a reliable and real-time data system for local business deals.
+The most difficult technical hurdle was designing a backend that could handle dynamic updates from multiple businesses in real-time. We needed a system where restaurants and bars could quickly update their deals, and users would see those changes instantly. 
+This required me to learn complex state management techniques and implement efficient data streaming using Firebase.
+
+I had to solve several intricate problems:
+
+- Creating a secure authentication system that verified business owners
+- Developing a robust caching mechanism to keep the app responsive
+- Implementing geolocation features to show nearby deals accurately
+- Designing an intuitive interface that could handle frequent, rapid data changes
+
+The biggest personal challenge was coordinating with local businesses to onboard them onto my app. Many small business owners were hesitant about using a new technology, so I had to convince them of the app's value and build trust.
+This project pushed me out of my comfort zone technically and professionally. I learned that building a successful app isn't just about writing code—it's about solving real-world problems and creating value for both businesses and users.
