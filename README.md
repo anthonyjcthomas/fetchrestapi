@@ -5,7 +5,7 @@ Fetch Rewards Points Tracking API
 
 **Setup**
 
-1.  Ensure you have Python 3.10+ and pip installed.
+1.  Make sure you have Python 3.10+ and pip installed.
 2.  Run `https://github.com/anthonyjcthomas/fetchrestapi`
 3.  Run `cd fetchrestapi`
 2.  Run `python3 -m venv venv`
