@@ -6,6 +6,8 @@ Fetch Rewards Points Tracking API
 **Setup**
 
 1.  Ensure you have Python 3.10+ and pip installed.
+2.  Run `https://github.com/anthonyjcthomas/fetchrestapi`
+3.  Run `cd fetchrestapi`
 2.  Run `python3 -m venv venv`
 3.  Run `source venv/bin/activate`
 4.  Run `pip install -r requirements.txt`
@@ -36,3 +38,7 @@ Fetch Rewards Points Tracking API
 1.  GET /balance and verify the response:
 
 -   Get current balance `curl http://localhost:8000/balance`
+-   Should be; 
+        {
+        "DANNON": 1000, ”UNILEVER” : 0, "MILLER COORS": 5300
+        }   

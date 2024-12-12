@@ -4,7 +4,7 @@ import pytz
 
 app = Flask(__name__)
 
-# Store transactions and balances
+# Memory
 transactions = []
 balances = {}
 
@@ -19,6 +19,7 @@ def add_points():
     timestamp_str = data.get("timestamp")
 
     if payer is None or points is None or timestamp_str is None:
+
         return "Bad Request: Missing required fields.", 400
 
     # Parse timestamp
@@ -33,10 +34,12 @@ def add_points():
     if points >= 0:
         # Positive transaction: just add it
         transaction = {
+
             "payer": payer,
             "points": points,
             "timestamp": timestamp,
             "remaining_points": points
+
         }
         transactions.append(transaction)
         transactions.sort(key=lambda x: x["timestamp"])
@@ -55,7 +58,7 @@ def add_points():
                 to_remove -= remove_amount
 
         # Update the payer balance
-        balances[payer] += points  # points is negative: reduces their balance
+        balances[payer] += points  # negative case, should reduce balance
 
     return "", 200
 

@@ -15,6 +15,7 @@ Disadvantages:
 - The error checking could be improved to make the app more reliable in a real-world situation
 
 3. My Favorite Project: Saveory App
+
 One of the coolest projects I've worked on is the Saveory app. While building the app was exciting, the biggest challenge was creating a reliable and real-time data system for local business deals.
 The most difficult technical hurdle was designing a backend that could handle dynamic updates from multiple businesses in real-time. We needed a system where restaurants and bars could quickly update their deals, and users would see those changes instantly. 
 This required me to learn complex state management techniques and implement efficient data streaming using Firebase.
